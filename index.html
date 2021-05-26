@@ -4,90 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <!-- CSS way 1: Style tag/Internal css
-    <style>
-        body{
-            color: #2563EB;
-        }
-    </style> -->
-
-    <!-- CSS 3rd way : External CSS -->
+    <title>Souvik | Web Developer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- CSS 2nd way : Inline CSS
-    <h1 style="color: red;">Souvik Das's Component Library</h1>
-     -->
-    <h1>Souvik Das's Component Library</h1>
-    
-    <h1>My name is Souvik Das and currently I am learning front end web development</h1>
-    <hr>
-    
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragraph.</p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is relatively small text</small>
-    <hr>
-
-    <h2>@containers</h2>
-    <h3>@fluid container</h3>
-    <div class="container container-fluid">This is going to be a fluid container.It will go full width of page.With some margin.</div>
-    <h3>@center container</h3>
-    <div class="container container-center">This is going to be a center container.It will go till a given width and center content</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="">Primary Link</a>
-    <a class="link link-secondary" href="">Secondary Link</a>
-
-    <hr>
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
- 
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <hr>
     <nav class="navigation">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand">Web Developer</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-
-    <h2>@header</h2>
-
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" alt="">
         <h1 class="hero-heading">Souvik Das the 
@@ -95,45 +29,50 @@
             </span>   
             </h1>
     </header>
-    <hr>
-    <h2>@Section</h2>
+
+    <section class="section ow">
+        <div class="container container-center">
+
+        <h1>Technologies</h1>
+        <p>I'm familiar with HTML5,CSS3,Javascript,NodeJS,ReactJS,git and Web Hosting.I also know C,Java and SQL</p>
+    </div>
+
+    </section>
     <section class="section">
         <div class="container container-center">
-        <h1>White Section</h1>
-        <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        <h1>Projects</h1>
+        <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+        <a class="link link-primary" href="">View Projects</a>
     </div>
     </section>
     <section class="section ow">
         <div class="container container-center">
 
-        <h1>Off white Section</h1>
-        <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        <h1>Blogs</h1>
+        <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+        <a class="link link-secondary" href="">View Projects</a>
     </div>
-
     </section>
-    <hr>
-
-    <h2>@footer</h2>
+    <br>
     <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
+        <div class="footer-header">Social  Media Contacts</div>
         <ul class="social-links list-non-bullet">
         <li class="list-item-inline">
-         <a class="link" href="/">
-            socialOne
+         <a class="link" href="https://linkedin.com/">
+            Linkedin
          </a>   
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">socialTwo
+          <a class="link" href="https://github.com">Github
           </a>
         </li>
         <li class="list-item-inline">
-         <a class="link" href="/">
-          socialThree
+         <a class="link" href="https://twitter.com">
+          Twitter
         </a>
         </li>
         </ul>
     </footer>
-    <!-- <div style="height: 30vh;"></div> -->
-
+    
 </body>
-</html> 
+</html>
